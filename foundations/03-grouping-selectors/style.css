@@ -1,0 +1,13 @@
+.Main {
+    background-color: black;
+    color: white;
+}
+
+.Alt {
+    background-color: yellow;
+}
+
+.Main, .Alt {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
