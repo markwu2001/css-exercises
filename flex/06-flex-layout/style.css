@@ -5,7 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px; /*weird bug on my html*/
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+}
+
+.footer {
+  background-color: lightgray;
+} 
 
 img {
   width: 600px;
